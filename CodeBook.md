@@ -1,4 +1,4 @@
-#Codebook - Getting-and-Cleaning-Data-Week-4-Assignment
+##Codebook - Getting-and-Cleaning-Data-Week-4-Assignment
 
 The train, test and subject data were merge into one data set and only the measurements on the mean and standard deviation for each measurement were extracted. The **TidyData** dataset is an independent data set with the average of each variable for each activity and each subject.
 
@@ -82,7 +82,7 @@ Activity column has 6 types as listed below.
 67. "fBodyBodyGyroJerkMag-mean()" 
 68. "fBodyBodyGyroJerkMag-std()"
 
-##Variables
+###Variables
 * features: Table containing all features
 * activity_labels: Table containing the activities
 * x_train: Table containing the train features
