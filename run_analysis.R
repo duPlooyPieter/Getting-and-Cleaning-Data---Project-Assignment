@@ -1,8 +1,5 @@
 library(dplyr)
 
-setwd("H:\\My Drive\\Coursera\\Data Science\\3. Getting and Cleaning Data\\Course Project")
-
-
 features <- read.table("./data/UCI HAR Dataset/features.txt",header = FALSE)
 activity_labels <- read.table("./data/UCI HAR Dataset/activity_labels.txt",header = FALSE)
 
